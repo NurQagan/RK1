@@ -1,0 +1,121 @@
+/* body {
+    background-color: #003457;
+    color: aliceblue;
+}
+input {
+    width: 100%;
+}
+.main {
+    width: 500px;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div-1{
+    width: 35%;
+    margin-left: 80px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(1,0,0,0.2);
+    float: left;
+}
+.div-2 {
+    width: 50%;
+    display: flex;
+    float: right;
+    margin: auto;
+}
+.ph {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 5px;
+}
+.div-max {
+    max-width: 1000px;
+    height: 630px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(1,0,0,0.2);
+}
+
+h3 {
+    margin: 35px 25px;
+}
+p {
+    margin-top: -17px;
+}
+img {
+    width: 100%;
+    height: 400px;
+}
+input {
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+input[type="text"], [type="password"] {
+    display: block;
+    width: 95%;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+#check {
+    width: 25%;
+    height: 5px;
+    margin-top: 5px;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    margin: 5px 0;
+}
+button {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+#p2 {
+    text-align: center;
+    color: gray;
+}
+#sl {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    float: none;
+    margin: 0 0;
+    margin-left: 7px;
+}
+@media screen and (max-width: 480px) {
+    .div-1{
+        width: 85%;
+        margin-left: 5px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(1,0,0,0.2);
+        float: left;
+    }
+    .div-2 {
+        display: none;
+    }
+   
+    }
+    
